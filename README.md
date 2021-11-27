@@ -1,5 +1,6 @@
 # Math Calculator in C#
 Math Calculator that is written purely on C#
+/////////////////////////////////////////////
 
 BTW this is all the source code as the real thing has extra directories like
 
@@ -9,7 +10,7 @@ Calculator.sh
 
 ALl above are more higher files in the directory and is because of easy look at the code.
 
-To Satisfy my Coding OCD i added the programming languages i used:
+## To Satisfy my Coding OCD i added the programming languages i used:
 
 C#
 
