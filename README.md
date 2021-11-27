@@ -1,5 +1,7 @@
 # Math Calculator in C#
-Math Calculator that is written purely on C#
+Math Calculator that is written purely on (Mostly) C#
+
+
 /////////////////////////////////////////////
 
 BTW this is all the source code as the real thing has extra directories like
