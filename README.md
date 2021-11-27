@@ -26,4 +26,6 @@ XML
 
 JSON
 
+Now i wrote the calculator itself with c# but to make it work i had to use a few other languages like shell and batchfile.
+
 
