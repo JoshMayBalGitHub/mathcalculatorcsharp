@@ -10,7 +10,7 @@ Calculator.sh
 
 ALl above are more higher files in the directory and is because of easy look at the code.
 
-## To Satisfy my Coding OCD i added the programming languages i used:
+## To Satisfy my Coding Brain i added the programming languages i used:
 
 C#
 
