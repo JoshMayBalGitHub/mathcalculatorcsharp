@@ -3,6 +3,32 @@ using System;
 class Program {
     public static void Main(string[] args)
      {
+        Console.WriteLine("Write SUB for calculating (not complete)");
+        Console.WriteLine("Write CON for converting");
+        SON:
+        string ONS = Console.ReadLine();
+        if (ONS == "SUB") {
+            Console.WriteLine("OK calculating time!");
+            System.Threading.Thread.Sleep(TimeSpan.FromSeconds(2));
+            goto SUB;
+        } 
+        else if (ONS == "CON") {
+            Console.WriteLine("OK calculating time!");
+            System.Threading.Thread.Sleep(TimeSpan.FromSeconds(2));
+            goto CVO;
+        }
+        else
+        {
+            Console.WriteLine("Error, try again please.");
+            goto SON;
+        }
+         ////// Temporary Calculator Here
+         SUB:
+         Console.WriteLine("Subtraction");
+         float SN = Convert.ToSingle(Console.ReadLine());
+         Console.WriteLine(SN);
+         
+         CVO:
          Console.WriteLine("Go to the thing you want to calculate");
          Console.WriteLine("Note: Fractions are not implemented yet...");
          Console.WriteLine("You might have to convert it into decimals first...");
@@ -17,13 +43,6 @@ class Program {
          Console.WriteLine("ICM for inches to centimeters");
          Console.WriteLine("PG for Pints to Gallons");
          
-
-         ////// Temporary Calculator Here
-         
-         Console.WriteLine("SUbtraction");
-         float SN = Convert.ToSingle(Console.ReadLine());
-         Console.WriteLine(SN);
-
          CV:
          string CV = Console.ReadLine();
          if (CV == "MF") {
@@ -198,4 +217,4 @@ class Program {
         ///// Pints to Gallons
          
      }
-}
+ }
