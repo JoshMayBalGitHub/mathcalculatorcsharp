@@ -13,7 +13,7 @@ class Program {
             goto SUB;
         } 
         else if (ONS == "CON") {
-            Console.WriteLine("OK calculating time!");
+            Console.WriteLine("OK converting time!");
             System.Threading.Thread.Sleep(TimeSpan.FromSeconds(2));
             goto CVO;
         }
